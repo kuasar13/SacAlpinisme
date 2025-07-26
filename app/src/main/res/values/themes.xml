@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 1) Thème principal de l'application -->
+    <!--    Hérite d'un thème Android standard sans barre d'Action Bar -->
+    <style name="Theme.SacAlpi" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- ici vos overrides (couleurs de status bar, etc.) -->
+    </style>
+
+    <!-- 2) Thème de lancement (splash) : hérite de votre thème principal -->
+    <style name="Theme.SacAlpi.Splash" parent="Theme.SacAlpi">
+        <!-- windowBackground pointe vers notre drawable splash_screen.xml -->
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+</resources>
